@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background.png');
+ 
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.logo {
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+a:hover {
+  color: red; /* Change text color to red on hover */
+  text-shadow: 0 0 10px red; /* Add red glow effect */
+}
+h1 {
+  text-align: center;
+  color: #f3f3f3;
+  margin-top: 50px;
+}
+
+.input-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#targetUrl {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#searchBtn {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.dork-categories {
+  text-align: center;
+}
+
+.category-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dork-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 10px;
+  background-color: #eb0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 200px; /* Adjust size as needed */
+  height: 150px; /* Adjust size as needed */
+}
+
+.dork-btn img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  margin-bottom: 10px;
+}
+

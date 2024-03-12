@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INFOHAWK</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="2.png" type="image/x-icon">
+</head>
+<body>
+  <div class="top-bar">
+    <img src="YWHlogo.022c0d8e.svg" alt="Logo" class="logo">
+    <nav class="menu">
+      <ul>
+        <li><a href="https://www.yeswehack.com/">Home</a></li>
+        <li><a href="https://www.yeswehack.com/researchers/tools">Tools</a></li>
+      </ul>
+    </nav>
+  </div>
+  <h1>YesWe<span style="color: red;">Dorking</span></h1>
+  <div class="input-section">
+    <label for="targetUrl"></label>
+    <input type="text" id="targetUrl" placeholder="Enter target URL">
+  </div>
+  <div class="dork-categories">
+    <div class="category-buttons">  
+      <button class="dork-btn" data-type="directory">Directory Listing</button>
+      <button class="dork-btn" data-type="config">Config Files</button>
+      <button class="dork-btn" data-type="database">Database Files</button>
+      <button class="dork-btn" data-type="log">Log Files</button>
+      <button class="dork-btn" data-type="backup">Backup Files</button>
+      <button class="dork-btn" data-type="login">Login Pages</button>
+      <button class="dork-btn" data-type="sqlerror">SQL Error</button>
+      <button class="dork-btn" data-type="wordpress">WordPress</button>
+      <button class="dork-btn" data-type="exposeddocs">Exposed Documents</button>
+      <button class="dork-btn" data-type="phpinfo">phpinfo()</button>
+      <button class="dork-btn" data-type="openredirect">Open Redirect</button>
+      <button class="dork-btn" data-type="thirdparty">3rd Party Exposure</button>
+      <button class="dork-btn" data-type="subdomains">Subdomains (crt.sh)</button>
+      <button class="dork-btn" data-type="waybackurls">All Wayback URLs</button>
+      <button class="dork-btn" data-type="phpwayback">php Dork (WayBack)</button>
+      <button class="dork-btn" data-type="githubdork">GitHub Dork</button>
+      <button class="dork-btn" data-type="openbugbounty">OpenBugBounty</button>
+      <button class="dork-btn" data-type="findsubdomains">Find Subdomains (Google)</button>
+      <button class="dork-btn" data-type="securityheaders">Check Security Headers</button>
+      <button class="dork-btn" data-type="xss">XSS dork</button>
+      <button class="dork-btn" data-type="bxss">Blind XSS dork</button>
+      <button class="dork-btn" data-type="sqli">SQLi dork</button>
+      <!-- Add more buttons for other dork categories -->
+    </div>
+  </div>
+  <div id="results"></div>
+  <script src="script.js"></script>
+</body>
+</html>
